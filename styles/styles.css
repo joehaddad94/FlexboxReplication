@@ -50,7 +50,7 @@
 .main-page {
   display: flex;
   justify-content: space-between;
-  height: auto;
+  height: 1050px;
   background-color: rgb(243, 238, 238);
 }
 
@@ -200,6 +200,33 @@ h4 {
 .bag-img {
   width: 200px;
   height: auto;
+}
+
+.footer {
+  background-color: black;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  height: 70px;
+}
+
+.footer-left {
+  display: flex;
+  justify-content: space-around;
+  width: 400px;
+}
+
+.footer-left-font {
+  font-family: "Roboto", sans-serif;
+  color: rgb(110, 108, 108);
+  font-size: 0.9rem;
+}
+
+.footer-right-font {
+  font-family: "Roboto", sans-serif;
+  color: rgb(110, 108, 108);
+  font-size: 0.9rem;
+  font-weight: bold;
 }
 
 /* Search Bar CSS */
