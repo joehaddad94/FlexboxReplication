@@ -190,6 +190,18 @@ h4 {
   width: 1200px;
   height: auto;
 }
+
+.right-display {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.bag-img {
+  width: 200px;
+  height: auto;
+}
+
 /* Search Bar CSS */
 .sbx-custom {
   display: inline-block;
