@@ -120,6 +120,72 @@ h4 {
   text-decoration: none;
 }
 
+.middle-display {
+  width: 1200px;
+}
+.header2 {
+  height: 100px;
+  display: flex;
+  justify-content: space-between;
+  position: sticky;
+  top: 0;
+}
+
+.favorites-orders {
+  display: flex;
+  justify-content: space-around;
+  width: 350px;
+}
+
+.favorite {
+  display: flex;
+  justify-content: space-evenly;
+  width: 150px;
+  align-items: center;
+}
+
+.star-icon {
+  width: 25px;
+  height: auto;
+}
+
+.right-display {
+  width: 364px;
+}
+
+.orders {
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  width: 150px;
+}
+
+.clipboard-icon {
+  width: 25px;
+  height: auto;
+}
+
+.my-account {
+  display: flex;
+}
+
+.account {
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  width: 150px;
+}
+
+.user-icon {
+  width: 25px;
+  height: auto;
+}
+
+.header2-font {
+  font-family: "Roboto", sans-serif;
+  color: rgb(110, 108, 108);
+}
+
 /* Search Bar CSS */
 .sbx-custom {
   display: inline-block;
