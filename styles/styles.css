@@ -2,6 +2,8 @@
   display: flex;
   background-color: black;
   height: 90px;
+  justify-content: space-between;
+  align-items: center;
 }
 
 .fb-img {
@@ -15,10 +17,15 @@
 
 .logos1 {
   display: flex;
+  width: 100px;
+  justify-content: space-around;
 }
 
 .logos2 {
+  width: 250px;
   display: flex;
+  align-items: center;
+  justify-content: space-around;
 }
 
 .phone-number {
