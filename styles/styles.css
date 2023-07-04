@@ -110,7 +110,7 @@ h4 {
   font-family: "Roboto", sans-serif;
   color: #4d3b4d;
   font-size: 16px;
-  background: #ffffff;
+  background: rgb(243, 238, 238);
   padding: 2px 5px 2px 5px;
   text-decoration: none;
 }
@@ -186,6 +186,10 @@ h4 {
   color: rgb(110, 108, 108);
 }
 
+.thedippers-img {
+  width: 1200px;
+  height: auto;
+}
 /* Search Bar CSS */
 .sbx-custom {
   display: inline-block;
