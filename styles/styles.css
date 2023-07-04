@@ -4,6 +4,8 @@
   height: 90px;
   justify-content: space-between;
   align-items: center;
+  position: sticky;
+  top: 0;
 }
 
 .fb-img {
@@ -43,6 +45,32 @@
 .shopping-cart-img {
   width: 30px;
   height: auto;
+}
+
+.main-page {
+  display: flex;
+  justify-content: space-between;
+  height: auto;
+  background-color: rgb(235, 228, 228);
+}
+
+.mr-brown-logo {
+  width: 200px;
+  height: 180px;
+}
+
+h4 {
+  font-family: "Roboto", sans-serif;
+  font-weight: bolder;
+  color: rgb(110, 108, 108);
+}
+
+.mr-brown-logo {
+  padding-left: 20px;
+}
+
+.menu-items {
+  padding-left: 35px;
 }
 
 /* Search Bar CSS */
